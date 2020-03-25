@@ -1,0 +1,62 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/img2"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout android:layout_height="400dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_margin="30dp"
+            android:gravity="center"
+            android:background="@drawable/background_dark_blur"
+            xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <LinearLayout android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_margin="20dp"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:textSize="40dp"
+                    android:gravity="center"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="19dp"
+                    android:layout_marginTop="40dp"
+                    android:textColor="#F0E7E7"
+                    android:textStyle="italic"
+                    android:text="You have successfuly registred.....!"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="19dp"
+                    android:textColor="#F0E5E5"
+                    android:layout_marginTop="15dp"
+                    android:textStyle="italic"
+                    android:text="Waite for CDS chairperson's Response"/>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

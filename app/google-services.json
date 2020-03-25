@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "508584557244",
+    "firebase_url": "https://ekathapro.firebaseio.com",
+    "project_id": "ekathapro",
+    "storage_bucket": "ekathapro.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:508584557244:android:9c0bae23eddf327150eeb9",
+        "android_client_info": {
+          "package_name": "com.example.ekathapro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "508584557244-cjlo4hjhpu137duorv204ncnasqc80ha.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ekathapro",
+            "certificate_hash": "02772fbca50c41bf854cb2e25840c6350fc5a8a3"
+          }
+        },
+        {
+          "client_id": "508584557244-jsc6p08rngjcv2a957p0u6dq0ek10v8o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCooXBq9JEcO2dhTsBe4Uxc00BTu36rWqs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "508584557244-jsc6p08rngjcv2a957p0u6dq0ek10v8o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

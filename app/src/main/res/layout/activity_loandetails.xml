@@ -1,0 +1,202 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:background="@drawable/img2"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+
+                <TableLayout android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:stretchColumns="10">
+
+                    <TableRow>
+
+                        <Button android:layout_height="match_parent"
+                            android:layout_width="130dp"
+                            android:text="MEMBER  LIST"
+                            android:id="@+id/memberlist"
+                            android:textColor="#000000"
+                            android:background="#fff"/>
+
+                        <Button android:layout_height="match_parent"
+                            android:layout_width="130dp"
+                            android:text="REQUEST  LOAN"
+                            android:id="@+id/requestloan"
+                            android:textColor="#000000"
+                            android:background="#fff"/>
+
+                        <Button android:layout_height="match_parent"
+                            android:layout_width="130dp"
+                            android:text="VIEW  ATTENDANCE"
+                            android:id="@+id/viewattendance"
+                            android:textColor="#000000"
+                            android:background="#fff"/>
+
+                        <Button android:layout_height="match_parent"
+                            android:layout_width="130dp"
+                            android:text="VIEW  THRIFT"
+                            android:id="@+id/viewthrift"
+                            android:textColor="#000000"
+                            android:background="#fff"/>
+
+                        <Button android:layout_height="match_parent"
+                            android:layout_width="130dp"
+                            android:text="VIEW  EXPENSE"
+                            android:id="@+id/viewexpense"
+                            android:textColor="#000000"
+                            android:background="#fff"/>
+
+                        <Button android:layout_height="match_parent"
+                            android:layout_width="130dp"
+                            android:text="LOAN  DETAILS"
+                            android:id="@+id/loandetails"
+                            android:textColor="#000000"
+                            android:background="#86F58A"/>
+
+                        <Button android:layout_height="match_parent"
+                            android:layout_width="130dp"
+                            android:text="PAYMENT  INFO"
+                            android:id="@+id/paymentinfo"
+                            android:textColor="#000000"
+                            android:background="#fff"/>
+
+                        <Button android:layout_height="match_parent"
+                            android:layout_width="130dp"
+                            android:text="COMPLAINTS"
+                            android:id="@+id/complaints"
+                            android:textColor="#000000"
+                            android:background="#fff"/>
+
+                        <Button android:layout_height="match_parent"
+                            android:layout_width="130dp"
+                            android:text="PRIVACY"
+                            android:id="@+id/privacy"
+                            android:textColor="#000000"
+                            android:background="#fff"/>
+
+
+                    </TableRow>
+
+                </TableLayout>
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_marginTop="80dp"
+        android:stretchColumns="1">
+
+        <TableRow>
+
+            <TextView android:layout_height="30dp"
+                android:layout_width="match_parent"
+                android:text="Loan amount"
+                android:textSize="20dp"
+                android:textColor="#030303"
+                android:layout_marginLeft="20dp"/>
+
+            <EditText android:layout_height="40dp"
+                android:layout_width="match_parent"
+                android:id="@+id/loanamount"
+                android:background="@drawable/textbox"
+                android:inputType="none"
+                android:editable="false"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="120dp"/>
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:stretchColumns="1">
+
+        <TableRow>
+
+            <TextView android:layout_height="30dp"
+                android:layout_width="match_parent"
+                android:text="Time  period"
+                android:textSize="20dp"
+                android:textColor="#030303"
+                android:layout_marginLeft="20dp"/>
+
+            <EditText android:layout_height="40dp"
+                android:layout_width="match_parent"
+                android:id="@+id/timeperiod"
+                android:background="@drawable/textbox"
+                android:inputType="none"
+                android:editable="false"
+                android:layout_marginLeft="25dp"
+                android:layout_marginRight="120dp"/>
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:stretchColumns="1">
+
+        <TableRow>
+
+            <TextView android:layout_height="30dp"
+                android:layout_width="match_parent"
+                android:text="Loan interest"
+                android:textSize="20dp"
+                android:textColor="#030303"
+                android:layout_marginLeft="20dp"/>
+
+            <EditText android:layout_height="40dp"
+                android:layout_width="match_parent"
+                android:id="@+id/loaninterest"
+                android:background="@drawable/textbox"
+                android:inputType="none"
+                android:editable="false"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="120dp"/>
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+
+
+
+</LinearLayout>

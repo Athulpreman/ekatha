@@ -1,0 +1,60 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/img2"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:id="@+id/presireq"
+        android:layout_width="228dp"
+        android:layout_height="55dp"
+        android:textSize="15dp"
+        android:background="@drawable/greenoval"
+        android:text="Unit President Requests" />
+    <Button
+        android:layout_marginTop="35dp"
+        android:id="@+id/adduppr"
+        android:layout_width="228dp"
+        android:layout_height="55dp"
+        android:textSize="15dp"
+        android:background="@drawable/greenoval"
+        android:text="Delete or Update president" />
+
+    <Button
+        android:id="@+id/unitmembers"
+        android:layout_width="228dp"
+        android:layout_height="55dp"
+        android:textSize="15dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/greenoval"
+        android:text="Unit members" />
+
+    <Button
+        android:id="@+id/unitexpense"
+        android:layout_width="228dp"
+        android:layout_height="55dp"
+        android:textSize="15dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/greenoval"
+        android:text="unit  expenses" />
+
+    <Button
+        android:id="@+id/unitreport"
+        android:layout_width="228dp"
+        android:layout_height="55dp"
+        android:textSize="15dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/greenoval"
+        android:text="unit  report" />
+
+    <Button
+        android:id="@+id/logout3"
+        android:layout_width="228dp"
+        android:layout_height="55dp"
+        android:textSize="15dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/greenoval"
+        android:text="Logout" />
+
+</LinearLayout>

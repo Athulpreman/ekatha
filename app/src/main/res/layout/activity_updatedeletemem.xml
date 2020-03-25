@@ -1,0 +1,282 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="top"
+    android:background="@drawable/img2"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ScrollView android:layout_height="wrap_content"
+        android:layout_width="400dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:gravity="center"
+                xmlns:android="http://schemas.android.com/apk/res/android">
+
+                <TableLayout android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:stretchColumns="10">
+
+                    <TableRow>
+
+                        <Button android:layout_height="match_parent"
+                            android:layout_width="130dp"
+                            android:text="MEMBER  request"
+                            android:id="@+id/memberrequest"
+                            android:textColor="#000000"
+                            android:background="#fff"/>
+
+                        <Button android:layout_height="match_parent"
+                            android:layout_width="130dp"
+                            android:text="Update Delete Member"
+                            android:id="@+id/updelmem"
+                            android:textColor="#000000"
+                            android:background="#86F58A"/>
+
+                        <Button android:layout_height="match_parent"
+                            android:layout_width="130dp"
+                            android:text="attendance"
+                            android:id="@+id/attandance"
+                            android:textColor="#000000"
+                            android:background="#fff"/>
+
+                        <Button android:layout_height="match_parent"
+                            android:layout_width="130dp"
+                            android:text="thrift"
+                            android:id="@+id/viewattendance"
+                            android:textColor="#000000"
+                            android:background="#fff"/>
+
+                        <Button android:layout_height="match_parent"
+                            android:layout_width="130dp"
+                            android:text="loan request"
+                            android:id="@+id/loanReq"
+                            android:textColor="#000000"
+                            android:background="#fff"/>
+
+                        <Button android:layout_height="match_parent"
+                            android:layout_width="130dp"
+                            android:text="borrowlist"
+                            android:id="@+id/borrowlist"
+                            android:textColor="#000000"
+                            android:background="#fff"/>
+
+                        <Button android:layout_height="match_parent"
+                            android:layout_width="130dp"
+                            android:text="expense"
+                            android:id="@+id/expenses"
+                            android:textColor="#000000"
+                            android:background="#fff"/>
+
+                        <Button android:layout_height="match_parent"
+                            android:layout_width="130dp"
+                            android:text="monthly report"
+                            android:id="@+id/paymentinfo"
+                            android:textColor="#000000"
+                            android:background="#fff"/>
+
+                        <Button android:layout_height="match_parent"
+                            android:layout_width="130dp"
+                            android:text="COMPLAINTS"
+                            android:id="@+id/complaints"
+                            android:textColor="#000000"
+                            android:background="#fff"/>
+
+                        <Button android:layout_height="match_parent"
+                            android:layout_width="130dp"
+                            android:text="PRIVACY"
+                            android:id="@+id/privacy"
+                            android:textColor="#000000"
+                            android:background="#fff"/>
+
+
+                    </TableRow>
+
+                </TableLayout>
+
+
+            </LinearLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+
+    <LinearLayout
+        android:background="@drawable/img2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ward number:"
+                android:textSize="19dp"/>
+
+            <Spinner
+                android:layout_height="40dp"
+                android:layout_width="290dp"
+                android:background="@drawable/textbox"
+                android:id="@+id/ward"
+                android:layout_marginTop="1dp"
+                android:entries="@array/war"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_marginTop="9dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Unit number:"
+                android:textSize="20dp"/>
+
+            <Spinner
+                android:layout_height="40dp"
+                android:layout_width="290dp"
+                android:id="@+id/unitno"
+                android:entries="@array/war"
+                android:layout_marginTop="9dp"
+                android:background="@drawable/textbox"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Member Username:"
+                android:textSize="20dp"/>
+
+
+            <EditText
+                android:layout_marginTop="1dp"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+
+                android:id="@+id/user1"/>
+        </LinearLayout>
+        <Button
+            android:background="@drawable/oval"
+            android:layout_marginTop="10dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="SEARCH"
+            android:id="@+id/search"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/u"
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Username:"
+                android:textSize="20dp"/>
+
+
+
+            <EditText
+                android:visibility="invisible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint=""
+                android:editable="false"
+                android:inputType="none"
+                android:id="@+id/usrnam"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/p"
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Place:"
+                android:textSize="20dp"/>
+
+
+        <EditText
+            android:visibility="invisible"
+            android:layout_marginLeft="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:id="@+id/plce"/>
+        </LinearLayout><LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/m"
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mobile:"
+                android:textSize="20dp"/>
+
+
+        <EditText
+            android:visibility="invisible"
+            android:inputType="number"
+            android:layout_marginLeft="9dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint=""
+            android:id="@+id/mob"/>
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <Button
+            android:visibility="invisible"
+            android:background="@drawable/oval"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:text="Update"
+            android:id="@+id/update"/>
+        <Button
+            android:visibility="invisible"
+            android:layout_marginLeft="9dp"
+            android:background="@drawable/oval"
+            android:layout_width="119dp"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:id="@+id/delete"/>
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

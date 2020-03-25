@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ekathapro">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/img6"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/oval"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Loanpayment"></activity>
+        <activity android:name=".Unitpresiprivacy" />
+        <activity android:name=".Viewcomplaints" />
+        <activity android:name=".Takeattendence" />
+        <activity android:name=".Unitthrift" />
+        <activity android:name=".Updatedeletemem" />
+        <activity android:name=".Report" />
+        <activity android:name=".Expenses" />
+        <activity android:name=".Borrowerlist" />
+        <activity android:name=".Approveloanrequest" />
+        <activity android:name=".Updatedeletepresi" />
+        <activity android:name=".Memafterregi" />
+        <activity android:name=".unitreport" />
+        <activity android:name=".unitexpenses" />
+        <activity android:name=".unitmembers" />
+        <activity android:name=".Acceptingmem" />
+        <activity android:name=".privacy" />
+        <activity android:name=".complaints" />
+        <activity android:name=".paymentinfo" />
+        <activity android:name=".loandetails" />
+        <activity android:name=".viewexpense" />
+        <activity android:name=".viewthrift" />
+        <activity android:name=".viewattendance" />
+        <activity android:name=".Presiiafterregi" />
+        <activity android:name=".requestloan" />
+        <activity android:name=".memlogged" />
+        <activity android:name=".Presihome" />
+        <activity android:name=".Acceptingpresi" />
+        <activity android:name=".Cdshome" />
+        <activity android:name=".Memregi" />
+        <activity android:name=".Cdslog" />
+        <activity android:name=".Memlog" />
+        <activity android:name=".Unitpresilog" />
+        <activity android:name=".Unitpresregi" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

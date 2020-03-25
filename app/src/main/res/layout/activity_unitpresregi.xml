@@ -1,0 +1,150 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:background="@drawable/img2"
+        android:orientation="vertical"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+        <TableLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:paddingTop="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_marginBottom="10dp"
+                android:layout_height="150dp"
+                android:layout_width="219dp"
+                android:src="@drawable/imgg"/>
+
+        </TableLayout>
+        <TableLayout android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:stretchColumns="1"
+            android:orientation="vertical">
+
+            <TableRow android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="150dp"
+                    android:text="UnitNumber"
+                    android:textSize="20dp"/>
+
+                <Spinner
+                    android:id="@+id/unitnumb"
+                    android:entries="@array/war"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"/>
+            </TableRow>
+            <TableRow android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <TextView android:layout_height="wrap_content"
+                    android:layout_width="150dp"
+                    android:text="UnitName"
+                    android:textSize="20dp"/>
+
+                <EditText
+                    android:id="@+id/unitnam"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"/>
+            </TableRow>
+            <TableRow android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <TextView android:layout_height="wrap_content"
+                    android:layout_width="150dp"
+                    android:text="Place"
+                    android:textSize="20dp"/>
+
+
+                <EditText
+                    android:id="@+id/plce"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"/>
+            </TableRow>  <TableRow android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="150dp"
+                android:text="WardNumber"
+                android:textSize="20dp"/>
+
+            <Spinner
+                android:id="@+id/ward"
+                android:entries="@array/war"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+        </TableRow>
+            <TableRow
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <TextView
+                    android:layout_height="wrap_content"
+                    android:layout_width="150dp"
+                    android:text="MobileNumber"
+                    android:textSize="20dp"/>
+
+                <EditText
+                    android:inputType="phone"
+                    android:id="@+id/mob"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"/>
+            </TableRow>  <TableRow android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="150dp"
+                android:text="UserName"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/username" android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+        </TableRow>  <TableRow android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+            <TextView android:layout_height="wrap_content"
+                android:layout_width="150dp"
+                android:text="Password"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:inputType="textPassword"
+                android:id="@+id/pass" android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+        </TableRow>
+            <TableRow android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+                <TextView android:layout_height="wrap_content"
+                    android:layout_width="150dp"
+                    android:text="RetypePassword"
+                    android:textSize="19dp"/>
+
+                <EditText
+                    android:inputType="textPassword"
+                    android:id="@+id/repass"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"/>
+            </TableRow>
+        </TableLayout>
+        <LinearLayout
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <Button
+                android:id="@+id/regis"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/oval"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:textSize="25dp"
+                android:text="REGIster"/>
+            <Button
+                android:id="@+id/signin"
+                style="@style/Widget.AppCompat.Button.Borderless"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sign in"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

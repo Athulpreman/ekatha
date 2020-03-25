@@ -1,0 +1,73 @@
+
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="top"
+        android:background="@drawable/img2"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="40dp"
+            android:gravity="center">
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="208dp"
+            android:layout_height="219dp"
+            android:background="@drawable/imgg"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="80dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:hint="Username"
+        android:textSize="24sp" />
+
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textSize="24sp"
+            android:layout_marginTop="20dp"/>
+
+
+    <Button
+        android:id="@+id/btlogin"
+        android:layout_width="121dp"
+        android:layout_height="66dp"
+        android:background="@drawable/oval"
+        android:text="Login"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/regi"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No account?Create one."
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>

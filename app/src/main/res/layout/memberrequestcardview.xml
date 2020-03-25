@@ -1,0 +1,135 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/img2"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:gravity="top"
+        android:orientation="horizontal"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/card"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="25dp">
+
+
+            <TableLayout android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:stretchColumns="1"
+                android:orientation="vertical">
+
+                <TableRow android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+                    <TextView
+                        android:layout_marginTop="4dp"
+                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:text="UnitNumber"
+
+                        android:textSize="20dp"/>
+                    <TextView
+                        android:id="@+id/unitno"
+                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:text="UnitNumber"
+                        android:textSize="20dp"/>
+
+
+                </TableRow>
+
+                <TableRow android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+                    <TextView android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:text="UserName"
+                        android:textSize="20dp"/>
+                    <TextView
+                        android:id="@+id/username"
+                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:text="UserName"
+                        android:textSize="20dp"/>
+
+
+                </TableRow>
+                <TableRow android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+                    <TextView android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:text="Place"
+                        android:textSize="20dp"/>
+                    <TextView
+                        android:id="@+id/plce"
+                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:text="Place"
+                        android:textSize="20dp"/>
+
+
+                </TableRow>
+                <TableRow android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+                    <TextView android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:text="WardNumber"
+                        android:textSize="20dp"/>
+                    <TextView
+                        android:id="@+id/ward"
+                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:text="WardNumber"
+                        android:textSize="20dp"/>
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:text="MobileNumber"
+                        android:textSize="20dp"/>
+                    <TextView
+                        android:id="@+id/mob"
+                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:text="MobileNumber"
+                        android:textSize="20dp"/>
+
+
+                </TableRow>
+                <TableRow
+                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent">
+                    <TextView
+                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:text=""
+                        android:textSize="20dp"/>
+                    <Button
+                        android:id="@+id/appro"
+                        android:background="@drawable/oval"
+                        android:layout_height="wrap_content"
+                        android:layout_width="150dp"
+                        android:text="approve"
+                        android:textSize="20dp"/>
+
+
+                </TableRow>
+            </TableLayout>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</LinearLayout>
