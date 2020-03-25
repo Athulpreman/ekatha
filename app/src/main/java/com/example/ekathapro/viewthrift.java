@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.HorizontalScrollView;
+import android.widget.Toast;
 
 public class viewthrift extends AppCompatActivity {
 
@@ -87,5 +89,37 @@ public class viewthrift extends AppCompatActivity {
                 startActivity(inten);
             }
         });
+    }
+    Toast backToast;
+    long backpress;
+
+
+    @Override
+    public void onBackPressed()
+    {
+        if (backpress+2000>System.currentTimeMillis())
+        {
+            backToast.cancel();
+            moveTaskToBack(true);
+            android.os.Process.killProcess(android.os.Process.myPid());
+            System.exit(1);
+        }
+        else
+        {
+            backToast=Toast.makeText(getApplicationContext(), "Press again to exit", Toast.LENGTH_SHORT);
+            backToast.show();
+        }
+        backpress=System.currentTimeMillis();
+    }
+    @Override
+    public void onWindowFocusChanged(boolean hasFocus) {
+        super.onWindowFocusChanged(hasFocus);
+
+        HorizontalScrollView hsv = (HorizontalScrollView) findViewById(R.id.horizondal);
+
+        int x, y;
+        x = b3.getLeft();
+        y = b3.getTop();
+        hsv.scrollTo(x, y);
     }
 }

@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.HorizontalScrollView;
 
 public class viewattendance extends AppCompatActivity {
 
@@ -87,5 +88,16 @@ public class viewattendance extends AppCompatActivity {
                 startActivity(inten);
             }
         });
+    }
+    @Override
+    public void onWindowFocusChanged(boolean hasFocus) {
+        super.onWindowFocusChanged(hasFocus);
+
+        HorizontalScrollView hsv = (HorizontalScrollView) findViewById(R.id.horizondal);
+
+        int x, y;
+        x = b2.getLeft();
+        y = b2.getTop();
+        hsv.scrollTo(x, y);
     }
 }

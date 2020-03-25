@@ -5,8 +5,12 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.ViewTreeObserver;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.HorizontalScrollView;
+import android.widget.ScrollView;
+import android.widget.Toast;
 
 public class requestloan extends AppCompatActivity {
 
@@ -14,6 +18,7 @@ public class requestloan extends AppCompatActivity {
     String sd,sn,sa;
     Button b1,b2,b3,b4,b5,b6,b7,b8,b9;
     Button reqloan;
+    ScrollView scrollView;
 
 
     @Override
@@ -24,7 +29,6 @@ public class requestloan extends AppCompatActivity {
         date=(EditText)findViewById(R.id.date);
         name=(EditText)findViewById(R.id.name);
         amount=(EditText)findViewById(R.id.amount1);
-
         b1=(Button)findViewById(R.id.memberlist);
         b2=(Button)findViewById(R.id.requestloan);
         b3=(Button)findViewById(R.id.viewattendance);
@@ -35,8 +39,8 @@ public class requestloan extends AppCompatActivity {
         b8=(Button)findViewById(R.id.complaints);
         b9=(Button)findViewById(R.id.privacy);
 
-        reqloan=(Button)findViewById(R.id.loanreg);
 
+        reqloan=(Button)findViewById(R.id.loanreg);
         reqloan.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -62,11 +66,6 @@ public class requestloan extends AppCompatActivity {
             }
         });
 
-        b2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-            }
-        });
         b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -125,4 +124,26 @@ public class requestloan extends AppCompatActivity {
             }
         });
     }
+    Toast backToast;
+    long backpress;
+
+
+    @Override
+    public void onBackPressed()
+    {
+        if (backpress+2000>System.currentTimeMillis())
+        {
+            backToast.cancel();
+            moveTaskToBack(true);
+            android.os.Process.killProcess(android.os.Process.myPid());
+            System.exit(1);
+        }
+        else
+        {
+            backToast=Toast.makeText(getApplicationContext(), "Press again to exit", Toast.LENGTH_SHORT);
+            backToast.show();
+        }
+        backpress=System.currentTimeMillis();
+    }
+
 }

@@ -1,0 +1,182 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.ekathapro"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-database:16.0.4] C:\Users\Bando\.gradle\caches\transforms-2\files-2.1\02bf4279865ab7c38cbfb66dddc939c9\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:5-79
+12-->[com.google.firebase:firebase-database:16.0.4] C:\Users\Bando\.gradle\caches\transforms-2\files-2.1\02bf4279865ab7c38cbfb66dddc939c9\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:22-76
+13
+14    <application
+14-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:7:5-55:19
+15        android:allowBackup="true"
+15-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:8:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.1.0] C:\Users\Bando\.gradle\caches\transforms-2\files-2.1\32f4f944aca9213f676acf60269714d3\core-1.1.0\AndroidManifest.xml:24:18-86
+17        android:debuggable="true"
+18        android:icon="@drawable/img6"
+18-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:9:9-38
+19        android:label="@string/app_name"
+19-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:10:9-41
+20        android:roundIcon="@drawable/oval"
+20-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:11:9-43
+21        android:supportsRtl="true"
+21-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:12:9-35
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:13:9-40
+24        <activity android:name="com.example.ekathapro.Loanpayment" />
+24-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:14:9-58
+24-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:14:19-46
+25        <activity android:name="com.example.ekathapro.Unitpresiprivacy" />
+25-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:15:9-54
+25-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:15:19-51
+26        <activity android:name="com.example.ekathapro.Viewcomplaints" />
+26-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:16:9-52
+26-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:16:19-49
+27        <activity android:name="com.example.ekathapro.Takeattendence" />
+27-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:17:9-52
+27-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:17:19-49
+28        <activity android:name="com.example.ekathapro.Unitthrift" />
+28-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:18:9-48
+28-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:18:19-45
+29        <activity android:name="com.example.ekathapro.Updatedeletemem" />
+29-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:19:9-53
+29-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:19:19-50
+30        <activity android:name="com.example.ekathapro.Report" />
+30-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:20:9-44
+30-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:20:19-41
+31        <activity android:name="com.example.ekathapro.Expenses" />
+31-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:21:9-46
+31-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:21:19-43
+32        <activity android:name="com.example.ekathapro.Borrowerlist" />
+32-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:22:9-50
+32-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:22:19-47
+33        <activity android:name="com.example.ekathapro.Approveloanrequest" />
+33-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:23:9-56
+33-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:23:19-53
+34        <activity android:name="com.example.ekathapro.Updatedeletepresi" />
+34-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:24:9-55
+34-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:24:19-52
+35        <activity android:name="com.example.ekathapro.Memafterregi" />
+35-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:25:9-50
+35-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:25:19-47
+36        <activity android:name="com.example.ekathapro.unitreport" />
+36-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:26:9-48
+36-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:26:19-45
+37        <activity android:name="com.example.ekathapro.unitexpenses" />
+37-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:27:9-50
+37-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:27:19-47
+38        <activity android:name="com.example.ekathapro.unitmembers" />
+38-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:28:9-49
+38-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:28:19-46
+39        <activity android:name="com.example.ekathapro.Acceptingmem" />
+39-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:29:9-50
+39-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:29:19-47
+40        <activity android:name="com.example.ekathapro.privacy" />
+40-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:30:9-45
+40-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:30:19-42
+41        <activity android:name="com.example.ekathapro.complaints" />
+41-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:31:9-48
+41-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:31:19-45
+42        <activity android:name="com.example.ekathapro.paymentinfo" />
+42-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:32:9-49
+42-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:32:19-46
+43        <activity android:name="com.example.ekathapro.loandetails" />
+43-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:33:9-49
+43-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:33:19-46
+44        <activity android:name="com.example.ekathapro.viewexpense" />
+44-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:34:9-49
+44-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:34:19-46
+45        <activity android:name="com.example.ekathapro.viewthrift" />
+45-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:35:9-48
+45-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:35:19-45
+46        <activity android:name="com.example.ekathapro.viewattendance" />
+46-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:36:9-52
+46-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:36:19-49
+47        <activity android:name="com.example.ekathapro.Presiiafterregi" />
+47-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:37:9-53
+47-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:37:19-50
+48        <activity android:name="com.example.ekathapro.requestloan" />
+48-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:38:9-49
+48-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:38:19-46
+49        <activity android:name="com.example.ekathapro.memlogged" />
+49-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:39:9-47
+49-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:39:19-44
+50        <activity android:name="com.example.ekathapro.Presihome" />
+50-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:40:9-47
+50-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:40:19-44
+51        <activity android:name="com.example.ekathapro.Acceptingpresi" />
+51-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:41:9-52
+51-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:41:19-49
+52        <activity android:name="com.example.ekathapro.Cdshome" />
+52-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:42:9-45
+52-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:42:19-42
+53        <activity android:name="com.example.ekathapro.Memregi" />
+53-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:43:9-45
+53-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:43:19-42
+54        <activity android:name="com.example.ekathapro.Cdslog" />
+54-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:44:9-44
+54-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:44:19-41
+55        <activity android:name="com.example.ekathapro.Memlog" />
+55-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:45:9-44
+55-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:45:19-41
+56        <activity android:name="com.example.ekathapro.Unitpresilog" />
+56-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:46:9-50
+56-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:46:19-47
+57        <activity android:name="com.example.ekathapro.Unitpresregi" />
+57-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:47:9-50
+57-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:47:19-47
+58        <activity android:name="com.example.ekathapro.MainActivity" >
+58-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:48:9-54:20
+58-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:48:19-47
+59            <intent-filter>
+59-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:49:13-53:29
+60                <action android:name="android.intent.action.MAIN" />
+60-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:50:17-69
+60-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:50:25-66
+61
+62                <category android:name="android.intent.category.LAUNCHER" />
+62-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:52:17-77
+62-->C:\Users\Bando\Desktop\as\pro\app\src\main\AndroidManifest.xml:52:27-74
+63            </intent-filter>
+64        </activity>
+65        <activity
+65-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Bando\.gradle\caches\transforms-2\files-2.1\bba3c37e69bf549f02b935dff6f1dadc\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+66            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+66-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Bando\.gradle\caches\transforms-2\files-2.1\bba3c37e69bf549f02b935dff6f1dadc\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+67            android:exported="false"
+67-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Bando\.gradle\caches\transforms-2\files-2.1\bba3c37e69bf549f02b935dff6f1dadc\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+68            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+68-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\Bando\.gradle\caches\transforms-2\files-2.1\bba3c37e69bf549f02b935dff6f1dadc\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+69
+70        <provider
+70-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Bando\.gradle\caches\transforms-2\files-2.1\ffe074cb87199d6266bb05a2f4333c4c\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+71            android:name="com.google.firebase.provider.FirebaseInitProvider"
+71-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Bando\.gradle\caches\transforms-2\files-2.1\ffe074cb87199d6266bb05a2f4333c4c\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+72            android:authorities="com.example.ekathapro.firebaseinitprovider"
+72-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Bando\.gradle\caches\transforms-2\files-2.1\ffe074cb87199d6266bb05a2f4333c4c\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+73            android:exported="false"
+73-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Bando\.gradle\caches\transforms-2\files-2.1\ffe074cb87199d6266bb05a2f4333c4c\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+74            android:initOrder="100" />
+74-->[com.google.firebase:firebase-common:16.0.3] C:\Users\Bando\.gradle\caches\transforms-2\files-2.1\ffe074cb87199d6266bb05a2f4333c4c\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+75
+76        <meta-data
+76-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Bando\.gradle\caches\transforms-2\files-2.1\f403edf80c4cdcbe495e80be3020743b\jetified-play-services-basement-16.0.1\AndroidManifest.xml:23:9-25:69
+77            android:name="com.google.android.gms.version"
+77-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Bando\.gradle\caches\transforms-2\files-2.1\f403edf80c4cdcbe495e80be3020743b\jetified-play-services-basement-16.0.1\AndroidManifest.xml:24:13-58
+78            android:value="@integer/google_play_services_version" />
+78-->[com.google.android.gms:play-services-basement:16.0.1] C:\Users\Bando\.gradle\caches\transforms-2\files-2.1\f403edf80c4cdcbe495e80be3020743b\jetified-play-services-basement-16.0.1\AndroidManifest.xml:25:13-66
+79    </application>
+80
+81</manifest>

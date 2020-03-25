@@ -42,7 +42,7 @@ public class MemberAdapter extends RecyclerView.Adapter<MemberAdapter.MemberView
     @Override
     public void onBindViewHolder(@NonNull final MemberViewHolder holder, final int position)
     {
-        holder.t1.setText(memb.get(position).getMname());
+        holder.t1.setText(memb.get(position).getMuser());
         holder.t2.setText(memb.get(position).getMmobile());
 
 

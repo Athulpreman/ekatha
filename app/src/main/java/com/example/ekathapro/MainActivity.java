@@ -8,6 +8,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     Button b1,b2,b4;
@@ -17,16 +18,17 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        SharedPreferences sharedPreferences=getSharedPreferences("Memlogin",MODE_PRIVATE);
-        String string=sharedPreferences.getString("member",null);
-        if(string!=null) {
-            Intent inton = new Intent(getApplicationContext(), Presihome.class);
-            startActivity(inton);
-        }
         SharedPreferences sharedPreferences1=getSharedPreferences("unitpresi",MODE_PRIVATE);
         String presi=sharedPreferences1.getString("unitnum",null);
         if(presi!=null) {
             Intent inton = new Intent(getApplicationContext(), Presihome.class);
+            startActivity(inton);
+        }
+
+        SharedPreferences sharedPreferences=getSharedPreferences("Memlogin",MODE_PRIVATE);
+        String string=sharedPreferences.getString("member",null);
+        if(string!=null) {
+            Intent inton = new Intent(getApplicationContext(), memlogged.class);
             startActivity(inton);
         }
 
@@ -57,5 +59,26 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(ob);
             }
         });
+    }
+    Toast backToast;
+    long backpress;
+
+
+    @Override
+    public void onBackPressed()
+    {
+        if (backpress+2000>System.currentTimeMillis())
+        {
+            backToast.cancel();
+            moveTaskToBack(true);
+            android.os.Process.killProcess(android.os.Process.myPid());
+            System.exit(1);
+        }
+        else
+        {
+            backToast=Toast.makeText(getApplicationContext(), "Press again to exit", Toast.LENGTH_SHORT);
+            backToast.show();
+        }
+        backpress=System.currentTimeMillis();
     }
 }

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">508584557244-jsc6p08rngjcv2a957p0u6dq0ek10v8o.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://ekathapro.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">508584557244</string>
+    <string name="google_api_key" translatable="false">AIzaSyCooXBq9JEcO2dhTsBe4Uxc00BTu36rWqs</string>
+    <string name="google_app_id" translatable="false">1:508584557244:android:9c0bae23eddf327150eeb9</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCooXBq9JEcO2dhTsBe4Uxc00BTu36rWqs</string>
+    <string name="google_storage_bucket" translatable="false">ekathapro.appspot.com</string>
+    <string name="project_id" translatable="false">ekathapro</string>
+</resources>

@@ -7,6 +7,7 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 public class Unitpresiprivacy extends AppCompatActivity {
     Button b1,b2,b3,b4,b5,b6,b7,b8,b9,b10;
@@ -98,5 +99,26 @@ public class Unitpresiprivacy extends AppCompatActivity {
                 startActivity(ob);
             }
         });
+    }
+    Toast backToast;
+    long backpress;
+
+
+    @Override
+    public void onBackPressed()
+    {
+        if (backpress+2000>System.currentTimeMillis())
+        {
+            backToast.cancel();
+            moveTaskToBack(true);
+            android.os.Process.killProcess(android.os.Process.myPid());
+            System.exit(1);
+        }
+        else
+        {
+            backToast=Toast.makeText(getApplicationContext(), "Press again to exit", Toast.LENGTH_SHORT);
+            backToast.show();
+        }
+        backpress=System.currentTimeMillis();
     }
 }

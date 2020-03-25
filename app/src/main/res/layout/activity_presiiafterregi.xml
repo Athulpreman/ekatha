@@ -50,6 +50,14 @@
                     android:layout_marginTop="15dp"
                     android:textStyle="italic"
                     android:text="Waite for CDS chairperson's Response"/>
+                <Button
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/oval"
+                    android:text="Home"
+                    android:layout_marginTop="30dp"
+                    android:textSize="17dp"
+                    android:id="@+id/gototHome"/>
 
 
 

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ekathapro"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="19"
+        android:targetSdkVersion="29" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@drawable/img6"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/oval"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.ekathapro.Loanpayment" />
+        <activity android:name="com.example.ekathapro.Unitpresiprivacy" />
+        <activity android:name="com.example.ekathapro.Viewcomplaints" />
+        <activity android:name="com.example.ekathapro.Takeattendence" />
+        <activity android:name="com.example.ekathapro.Unitthrift" />
+        <activity android:name="com.example.ekathapro.Updatedeletemem" />
+        <activity android:name="com.example.ekathapro.Report" />
+        <activity android:name="com.example.ekathapro.Expenses" />
+        <activity android:name="com.example.ekathapro.Borrowerlist" />
+        <activity android:name="com.example.ekathapro.Approveloanrequest" />
+        <activity android:name="com.example.ekathapro.Updatedeletepresi" />
+        <activity android:name="com.example.ekathapro.Memafterregi" />
+        <activity android:name="com.example.ekathapro.unitreport" />
+        <activity android:name="com.example.ekathapro.unitexpenses" />
+        <activity android:name="com.example.ekathapro.unitmembers" />
+        <activity android:name="com.example.ekathapro.Acceptingmem" />
+        <activity android:name="com.example.ekathapro.privacy" />
+        <activity android:name="com.example.ekathapro.complaints" />
+        <activity android:name="com.example.ekathapro.paymentinfo" />
+        <activity android:name="com.example.ekathapro.loandetails" />
+        <activity android:name="com.example.ekathapro.viewexpense" />
+        <activity android:name="com.example.ekathapro.viewthrift" />
+        <activity android:name="com.example.ekathapro.viewattendance" />
+        <activity android:name="com.example.ekathapro.Presiiafterregi" />
+        <activity android:name="com.example.ekathapro.requestloan" />
+        <activity android:name="com.example.ekathapro.memlogged" />
+        <activity android:name="com.example.ekathapro.Presihome" />
+        <activity android:name="com.example.ekathapro.Acceptingpresi" />
+        <activity android:name="com.example.ekathapro.Cdshome" />
+        <activity android:name="com.example.ekathapro.Memregi" />
+        <activity android:name="com.example.ekathapro.Cdslog" />
+        <activity android:name="com.example.ekathapro.Memlog" />
+        <activity android:name="com.example.ekathapro.Unitpresilog" />
+        <activity android:name="com.example.ekathapro.Unitpresregi" />
+        <activity android:name="com.example.ekathapro.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <provider
+            android:name="com.google.firebase.provider.FirebaseInitProvider"
+            android:authorities="com.example.ekathapro.firebaseinitprovider"
+            android:exported="false"
+            android:initOrder="100" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>

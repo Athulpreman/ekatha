@@ -265,8 +265,26 @@ public class Updatedeletemem extends AppCompatActivity {
                 });
             }
         });
+    }
+    Toast backToast;
+    long backpress;
 
 
-
+    @Override
+    public void onBackPressed()
+    {
+        if (backpress+2000>System.currentTimeMillis())
+        {
+            backToast.cancel();
+            moveTaskToBack(true);
+            android.os.Process.killProcess(android.os.Process.myPid());
+            System.exit(1);
+        }
+        else
+        {
+            backToast=Toast.makeText(getApplicationContext(), "Press again to exit", Toast.LENGTH_SHORT);
+            backToast.show();
+        }
+        backpress=System.currentTimeMillis();
     }
 }

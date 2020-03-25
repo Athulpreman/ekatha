@@ -1,6 +1,7 @@
 <LinearLayout android:layout_height="match_parent"
     android:layout_width="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/img2"
     android:gravity="top"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
@@ -13,6 +14,7 @@
 
         <HorizontalScrollView
             android:layout_width="wrap_content"
+            android:id="@+id/horizondal"
             android:layout_height="wrap_content">
 
             <LinearLayout android:layout_height="match_parent"
@@ -104,23 +106,25 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:gravity="center"
-        android:layout_marginTop="30dp"
-        android:stretchColumns="1">
+        android:layout_marginTop="35dp">
 
-        <TableRow>
+        <TableRow android:gravity="center"
+            android:layout_gravity="center">
 
             <TextView android:layout_height="30dp"
-                android:layout_width="match_parent"
+                android:layout_width="100dp"
                 android:text="Date"
+                android:gravity="center"
+                android:layout_gravity="center"
                 android:textSize="20dp"
-                android:textColor="#030303"
-                android:layout_marginLeft="20dp"/>
+                android:textColor="#030303" />
 
             <EditText android:layout_height="40dp"
-                android:layout_width="match_parent"
+                android:layout_width="220dp"
+                android:layout_marginRight="70dp"
                 android:id="@+id/date1"
-                android:layout_marginLeft="40dp"
-                android:layout_marginRight="180dp"/>
+                android:gravity="center"
+               />
 
 
         </TableRow>
@@ -135,7 +139,7 @@
         android:layout_marginTop="30dp"
         android:stretchColumns="1">
 
-        <TableRow>
+        <TableRow android:gravity="center">
 
             <Button
                 android:id="@+id/searchattendance"
@@ -144,7 +148,7 @@
                 android:layout_height="50dp"
                 android:textSize="15dp"
                 android:text="search  attendance"
-                android:layout_marginLeft="100dp"/>
+               android:gravity="center"/>
 
 
         </TableRow>

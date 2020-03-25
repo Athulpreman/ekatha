@@ -2,6 +2,7 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:gravity="top"
+    android:background="@drawable/img2"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <ScrollView android:layout_height="wrap_content"
@@ -13,6 +14,7 @@
 
         <HorizontalScrollView
             android:layout_width="wrap_content"
+            android:id="@+id/horizondal"
             android:layout_height="wrap_content">
 
             <LinearLayout android:layout_height="match_parent"
@@ -104,23 +106,21 @@
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:gravity="center"
-        android:layout_marginTop="30dp"
-        android:stretchColumns="1">
+        android:layout_marginTop="30dp">
 
-        <TableRow>
+        <TableRow android:gravity="center"
+            android:layout_gravity="center"
+            android:layout_marginRight="15dp">
 
             <TextView android:layout_height="30dp"
-                android:layout_width="match_parent"
+                android:layout_width="70dp"
                 android:text="Date"
                 android:textSize="20dp"
-                android:textColor="#030303"
-                android:layout_marginLeft="20dp"/>
+                android:textColor="#030303" />
 
             <EditText android:layout_height="40dp"
-                android:layout_width="match_parent"
-                android:id="@+id/date1"
-                android:layout_marginLeft="40dp"
-                android:layout_marginRight="180dp"/>
+                android:layout_width="220dp"
+                android:id="@+id/date1" />
 
 
         </TableRow>

@@ -36,8 +36,10 @@ public class Takeattendence extends AppCompatActivity {
     String currentDate;
     TextView date;
     String wardNo,unitNo;
-    DatabaseReference refee;
+    DatabaseReference refee,refattand;
     RecyclerView recyclerView;
+    AttandanceClass attandanceClass;
+    Memb memb;
 
 
     @Override
@@ -141,6 +143,9 @@ public class Takeattendence extends AppCompatActivity {
 
         date.setText(currentDate);
 
+        memb=new Memb();
+        attandanceClass=new AttandanceClass();
+
         recyclerView=(RecyclerView)findViewById(R.id.recyclevv);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
@@ -154,10 +159,25 @@ public class Takeattendence extends AppCompatActivity {
                 liste.clear();
                 for (DataSnapshot studentDatasnapshot : dataSnapshot.getChildren())
                 {
-                    Memb memb = studentDatasnapshot.getValue(Memb.class);
+                    memb = studentDatasnapshot.getValue(Memb.class);
                     if (memb.status.equals(true))
                     {
-                        liste.add(memb);
+                        refattand=refee.child(memb.getMuser()).child("Attendance").child(currentDate);
+                        refattand.addValueEventListener(new ValueEventListener() {
+                            @Override
+                            public void onDataChange(@NonNull DataSnapshot dataSnapshot)
+                            {
+                                if (!dataSnapshot.exists())
+                                {
+                                    liste.add(memb);
+                                }
+                            }
+
+                            @Override
+                            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                            }
+                        });
                     }
                 }
                 adapterattendence = new Adapterattendence(Takeattendence.this,liste);
@@ -170,13 +190,76 @@ public class Takeattendence extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(),"something wnt wrong", Toast.LENGTH_LONG).show();
             }
         });
+        if (liste.isEmpty())
+        {
+            submit.setVisibility(View.VISIBLE);
+        }
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view)
             {
+                refee= FirebaseDatabase.getInstance().getReference().child(wardNo).child(unitNo).child("Member");
+                refee.addValueEventListener(new ValueEventListener() {
+                    @Override
+                    public void onDataChange(@NonNull DataSnapshot dataSnapshot)
+                    {
+                        liste.clear();
+                        for (DataSnapshot studentDatasnapshot : dataSnapshot.getChildren())
+                        {
+                            memb = studentDatasnapshot.getValue(Memb.class);
+                            if (memb.status.equals(true))
+                            {
+                                refattand=refee.child(memb.getMuser()).child("Attendance");
+                                refattand.addValueEventListener(new ValueEventListener() {
+                                    @Override
+                                    public void onDataChange(@NonNull DataSnapshot dataSnapshot)
+                                    {
+                                        for (DataSnapshot ds:dataSnapshot.getChildren())
+                                        {
+                                            liste.add(memb);
+                                        }
+                                    }
 
+                                    @Override
+                                    public void onCancelled(@NonNull DatabaseError databaseError) {
+
+                                    }
+                                });
+                            }
+                        }
+                        adapterattendence = new Adapterattendence(Takeattendence.this,liste);
+                        recyclerView.setAdapter(adapterattendence);
+                    }
+
+                    @Override
+                    public void onCancelled(@NonNull DatabaseError databaseError)
+                    {
+                        Toast.makeText(getApplicationContext(),"something wnt wrong", Toast.LENGTH_LONG).show();
+                    }
+                });
             }
         });
 
+    }
+    Toast backToast;
+    long backpress;
+
+
+    @Override
+    public void onBackPressed()
+    {
+        if (backpress+2000>System.currentTimeMillis())
+        {
+            backToast.cancel();
+            moveTaskToBack(true);
+            android.os.Process.killProcess(android.os.Process.myPid());
+            System.exit(1);
+        }
+        else
+        {
+            backToast=Toast.makeText(getApplicationContext(), "Press again to exit", Toast.LENGTH_SHORT);
+            backToast.show();
+        }
+        backpress=System.currentTimeMillis();
     }
 }

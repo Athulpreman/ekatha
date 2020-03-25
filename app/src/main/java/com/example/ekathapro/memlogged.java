@@ -28,9 +28,9 @@ public class memlogged extends AppCompatActivity {
     RecyclerView recyclerView;
     MemberAdapter adapter;
     ArrayList<Memb> list;
-    long backpress;
-    Toast backToast;
     String ward,unitno;
+
+
 
 
     @Override
@@ -144,6 +144,8 @@ public class memlogged extends AppCompatActivity {
             }
         });
     }
+    Toast backToast;
+    long backpress;
 
 
     @Override
