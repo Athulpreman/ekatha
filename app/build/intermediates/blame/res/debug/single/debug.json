@@ -64,6 +64,10 @@
         "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\src\\main\\res\\layout\\activity_memregi.xml"
     },
     {
+        "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_help_vector.png.flat",
+        "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\help_vector.png"
+    },
+    {
         "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_viewcomplaints.xml.flat",
         "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\src\\main\\res\\layout\\activity_viewcomplaints.xml"
     },
@@ -80,12 +84,16 @@
         "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\src\\main\\res\\layout\\activity_paymentinfo.xml"
     },
     {
+        "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_android_black_24dp.png.flat",
+        "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_android_black_24dp.png"
+    },
+    {
         "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_unitexpenses.xml.flat",
         "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\src\\main\\res\\layout\\activity_unitexpenses.xml"
     },
     {
-        "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_ic_android_black_24dp.png.flat",
-        "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\ic_android_black_24dp.png"
+        "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_help_vector.png.flat",
+        "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\help_vector.png"
     },
     {
         "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_presiiafterregi.xml.flat",
@@ -102,6 +110,10 @@
     {
         "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_viewexpense.xml.flat",
         "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\src\\main\\res\\layout\\activity_viewexpense.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_logout_vector.png.flat",
+        "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\logout_vector.png"
     },
     {
         "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_launcher_background.xml.flat",
@@ -196,6 +208,10 @@
         "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\src\\main\\res\\drawable\\greenoval.xml"
     },
     {
+        "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_help_vector.png.flat",
+        "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\help_vector.png"
+    },
+    {
         "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_ic_android_black_24dp.xml.flat",
         "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_android_black_24dp.xml"
     },
@@ -218,6 +234,10 @@
     {
         "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_complaints.xml.flat",
         "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\src\\main\\res\\layout\\activity_complaints.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_help_vector.png.flat",
+        "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\help_vector.png"
     },
     {
         "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_cdshome.xml.flat",
@@ -256,6 +276,10 @@
         "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\changeuser.png"
     },
     {
+        "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_logout_vector.png.flat",
+        "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\logout_vector.png"
+    },
+    {
         "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi_changeuser.png.flat",
         "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\generated\\res\\pngs\\debug\\drawable-ldpi\\changeuser.png"
     },
@@ -292,6 +316,10 @@
         "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
+        "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi_logout_vector.png.flat",
+        "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxxhdpi\\logout_vector.png"
+    },
+    {
         "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_complaintcardview.xml.flat",
         "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\src\\main\\res\\layout\\complaintcardview.xml"
     },
@@ -320,6 +348,14 @@
         "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\ic_android_black_24dp.png"
     },
     {
+        "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_help_vector.xml.flat",
+        "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\help_vector.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21_logout_vector.xml.flat",
+        "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\logout_vector.xml"
+    },
+    {
         "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_unitmembers.xml.flat",
         "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\src\\main\\res\\layout\\activity_unitmembers.xml"
     },
@@ -330,6 +366,10 @@
     {
         "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_loanapprovingcardview.xml.flat",
         "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\src\\main\\res\\layout\\loanapprovingcardview.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_logout_vector.png.flat",
+        "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\logout_vector.png"
     },
     {
         "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_changeuser.png.flat",
@@ -348,8 +388,16 @@
         "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
+        "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_logout_vector.png.flat",
+        "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\logout_vector.png"
+    },
+    {
         "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_borrowerlist.xml.flat",
         "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\src\\main\\res\\layout\\activity_borrowerlist.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_help_vector.png.flat",
+        "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\help_vector.png"
     },
     {
         "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_unitreport.xml.flat",
@@ -362,6 +410,10 @@
     {
         "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_tick.png.flat",
         "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\generated\\res\\pngs\\debug\\drawable-mdpi\\tick.png"
+    },
+    {
+        "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_help_vector.png.flat",
+        "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\generated\\res\\pngs\\debug\\drawable-hdpi\\help_vector.png"
     },
     {
         "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_changepass.png.flat",
@@ -402,6 +454,10 @@
     {
         "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_updatedeletepresi.xml.flat",
         "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\src\\main\\res\\layout\\activity_updatedeletepresi.xml"
+    },
+    {
+        "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_logout_vector.png.flat",
+        "source": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\generated\\res\\pngs\\debug\\drawable-xhdpi\\logout_vector.png"
     },
     {
         "merged": "C:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_unitpresiprivacy.xml.flat",

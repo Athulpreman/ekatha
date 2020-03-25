@@ -1,4 +1,4 @@
-#Wed Mar 25 19:09:00 GMT+05:00 2020
+#Wed Mar 25 19:59:39 GMT+05:00 2020
 base.0=C\:\\Users\\Bando\\Desktop\\as\\pro\\app\\build\\intermediates\\dex\\debug\\out\\classes.dex
 path.0=classes.dex
 renamed.0=classes.dex

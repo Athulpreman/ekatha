@@ -718,6 +718,7 @@ drawable cross
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable greenoval
+drawable help_vector
 drawable ic_android_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
@@ -727,6 +728,7 @@ drawable img2
 drawable img5
 drawable img6
 drawable imgg
+drawable logout_vector
 drawable notification_action_background
 drawable notification_bg
 drawable notification_bg_low
@@ -877,6 +879,7 @@ id gone
 id gototHome
 id group_divider
 id groups
+id helpCustomer
 id home
 id homeAsUp
 id horizondal

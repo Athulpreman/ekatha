@@ -184,9 +184,9 @@
                 android:layout_width="240dp"
                 android:layout_height="50dp"
                 android:textSize="15dp"
+                android:drawableLeft="@drawable/logout_vector"
                 android:paddingRight="49dp"
                 android:paddingLeft="14dp"
-                android:drawableLeft="@drawable/logout_vector"
                 android:text="logout" />
 
 
