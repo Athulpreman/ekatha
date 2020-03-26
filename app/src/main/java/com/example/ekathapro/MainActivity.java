@@ -63,7 +63,6 @@ public class MainActivity extends AppCompatActivity {
     Toast backToast;
     long backpress;
 
-
     @Override
     public void onBackPressed()
     {
